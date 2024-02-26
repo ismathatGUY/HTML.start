@@ -1,0 +1,61 @@
+/* Base styles */
+body {
+    background-color: #F0F4F8;
+    color: #102A43;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #334E68;
+    border-bottom: 2px solid #D9E2EC;
+    padding-bottom: 8px;
+}
+
+h2 {
+    color: #486581;
+    font-style: normal;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom: 1px solid #CBD2D9;
+    padding-bottom: 5px;
+}
+
+/* Text and link styles */
+p, ol, ul {
+    margin-top: 5px;
+    line-height: 1.65em;
+    font-size: 1rem;
+}
+
+a {
+    color: #0077CC;
+}
+
+a:hover {
+    color: #F49342;
+}
+
+/* Custom classes for additional styling */
+.featured, .card {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #CBD2D9;
+    border-radius: 8px;
+}
+
+.highlight {
+    color: #F49342;
+    font-weight: bold;
+}
+
+/* Pseudo-classes for fine-tuning */
+p:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
